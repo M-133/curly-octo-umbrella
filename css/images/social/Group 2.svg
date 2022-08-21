@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Group_2" data-name="Group 2" transform="translate(-679 -919)">
+    <rect id="Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE2_" data-name="Area [SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE2]" width="48" height="48" rx="24" transform="translate(679 919)" fill="rgba(0,0,0,0.85)"/>
+    <g id="Area_ICON:feather_instagram_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE2_" data-name="Area [ICON:feather/instagram][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE2]" transform="translate(693 933)" fill="rgba(253,73,198,0.35)" stroke="#fff" stroke-width="1" opacity="0">
+      <rect width="20" height="20" stroke="none"/>
+      <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
+    </g>
+    <rect id="c1400cf7-58b6-413c-90b2-29180125f95c" width="20" height="20" rx="5" transform="translate(693 933)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="a4c64416-b6a1-47fe-a11e-c1af89c9dc9c" d="M16,11.37A4,4,0,1,1,12.63,8,4,4,0,0,1,16,11.37Z" transform="translate(691 931)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="b590ef1f-4de7-4925-9a0d-e3328429b672" x2="0.01" transform="translate(708.5 937.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

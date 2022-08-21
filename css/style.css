@@ -1,0 +1,430 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration : none;
+    scroll-behavior: smooth;
+}
+.container {
+    width : 1240px;
+    margin: auto;
+    padding: auto 15px;
+}
+body {
+    font-family:sans-serif;
+}   
+ul {
+    list-style: none;
+}
+/* GLOABL END */
+
+/* ============================================= */
+
+/* START HEADER */
+
+header {
+    background: center / cover no-repeat url(images/drew-coffman-1872.jpg);
+    height : 100vh;
+    filter: brightness(0.9);
+}
+header nav a img {
+    height : 45px;
+    margin-top: 15px;
+}
+header nav ul {
+    float : right;
+    font-size: 18PX;
+}
+header nav ul li {
+    float : left;
+    padding-top: 30px;
+    margin-left : 20px;
+}
+header nav ul li a {
+    color : #fff;
+}
+header nav ul li a:hover,
+header nav ul .Spacial:hover {
+    border-color: #8e7754;
+    color : #8e7754;
+}
+header nav ul .Spacial {
+    padding-top: 27px;
+    border-top: 3px solid #fff;
+}
+header article {
+    text-align: center;
+    color : #fff;
+    padding-top: 160px;
+}
+header article span {
+    font-size: 20px;
+}
+header article h1 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    font-family: auto;
+}
+header article p {
+    font-size: 18px;
+    margin-bottom: 60px;  
+}
+header article .Buttons a {
+    font-weight: 700;
+    font-size: 14px;
+    padding: 15px 28px;
+    background: none;
+    border-radius: 4px;
+}
+header article .Buttons a {
+    color : #fff;
+}
+header article .Buttons .one {
+    background-color: #8e7754;
+    border : 2px solid #8e7754;
+}
+header article .Buttons .two {
+    border : 2px solid #fff;
+    margin-left: 10px;
+}
+header article .Buttons a:hover {
+    background-color: #fff;
+    color : #000;
+}
+.Buttons .one:hover{
+    border : 2px solid #fff;
+}
+header article .down {
+    width : 20px;
+    height : 35px;
+    border : 2.5px solid #fff;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 220px;
+}
+header article .down a {
+    width : 20px;
+    height : 35px;
+    font-size: 30px;
+    opacity: 0;
+}
+
+/* END HEADER */
+
+/* ============================================= */
+
+/* START PAGE 2 */
+
+.page2 .content {
+    width : 100%;
+    height : 100vh;
+}
+.page2 .content .image {
+    margin : 10% 0 0px 0;
+    float: left;
+}
+.page2 .content .image img{
+    width: 550px;
+}
+.page2 .content .text {
+    width : 50%;
+    float: right;
+}
+.page2 .content .text h2{
+    font-size: 30px;
+    margin : 170px 0 0px 0
+}
+.page2 .content .text p{
+    opacity: 0.8;
+    line-height: 30px;
+    margin : 30px 0 30px 0
+}
+.page2 .content .text ul li{
+    opacity: 0.8;
+    margin-top: 18px;
+}
+.page2 .content .text ul li img{
+    vertical-align: middle;
+    width : 40px;
+    margin: 0 10px 0 0;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 10px;
+}
+ 
+
+
+/* TWOSECTION */
+
+
+
+.twosection {
+    height: 600px;
+    background-color: #f8f8f8;
+}
+.twosection .content  {
+    width : 100%;
+    margin: auto;
+    padding-top: 80px;
+}
+.twosection .content .image1 {
+    width: 50%;
+    float: right;
+}
+.twosection .content .image {
+    width : 50%;
+    float: right;
+}
+.twosection .content .image img{
+    width : 550px;
+    float: right;
+}
+.twosection .content .text {
+    width: 50%;
+    float: left;
+}
+.twosection .content .text h2{
+    font-size: 30px;
+    margin : 10% 0 0;
+}
+.twosection .content .text p{
+    opacity: 0.8;
+    line-height: 40px;
+    margin : 30px 0 30px 0
+}
+/* END PAGE 2 */
+
+/* ======================================= */
+
+/* START PAGE 3 */
+.page3 {
+    height : 100vh;
+    margin: 80px;
+}
+.page3 .text {
+    width: fit-content;
+    text-align: center;
+    margin : auto ; 
+}
+.page3 .text h2 {
+    margin-bottom: 30px;
+}
+.page3 .text span {
+    opacity: 0.8;
+    padding: 30px auto;
+}
+.page3 .boxes .box {
+    width : calc(100% / 3);
+    margin-top: 80px;
+    text-align: center;
+    float: left ;
+}
+.page3 .boxes .one .left{
+    float: left;
+}
+.page3 .boxes .three .right{
+    float: right;
+}
+.page3 .boxes .box img ,
+.page3 .boxes .box h3 ,
+.page3 .boxes .box p {
+    width : 380px;
+    margin: auto;
+}
+.page3 .boxes .box h3 {
+    width : auto;
+    margin : 20px 0;
+}
+.page3 .boxes .box p {
+    line-height: 30px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    opacity: 0.8;
+}
+/* END PAGE 3 */
+
+/* ======================================= */
+
+/* START PAGE 4 */
+.page4 {
+    height: 100vh;
+    background: #f8f8f8;
+}   
+.page4 .content div{
+    float: left;
+}
+.page4 .content .map {
+    width: 50%;
+    margin : 10% 0 0 0;
+}
+.page4 .content .map div{
+    width: 550px;
+    height: 500px;
+    float: right;
+}
+.page4 .content .text {
+    width :50%;
+    text-align: left;
+}
+.page4 .content .text h2{
+    font-size: 30px;
+    margin : 130px 0 0px 0
+}
+.page4 .content .text p{
+    opacity: 0.8;
+    line-height: 30px;
+    margin : 30px 0 30px 0
+}
+.page4 .content .text ul li{
+    opacity: 0.8;
+    margin-top: 18px;
+}
+.page4 h2, .page4 p
+{
+    text-align: left;
+}
+.page4 .content .text ul li img{
+    vertical-align: middle;
+    width : 40px;
+    margin: 0 10px 0 0;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 10px;
+}
+/* ENNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNND */
+
+/* START FOOTER */
+
+.part1Footer {
+    width : 100%;
+    height : 65vh;
+    background-color: #403d38;
+}
+.TheBoxes {
+    height : 65vh;
+}
+.BoxNum {
+    width: calc(100% / 4);
+    height : 100%;
+    background-color: #403d38;
+    float: left;
+    padding: 80px 0px;
+    color : #fff;
+}
+.part1Footer .TheBoxes p {
+    line-height: 30px;
+}
+.part1Footer .TheBoxes p , 
+.part1Footer .TheBoxes span {
+    opacity : 0.5;
+    font-size: 15px; 
+}
+.part1Footer .TheBoxes .BoxNum h4 {
+    padding-bottom: 30px;
+}
+.part1Footer .TheBoxes .BoxNum span {
+    display: inline-block;
+    padding: 16px 0;
+}
+.part1Footer .TheBoxes .BoxNum span::before {
+    content: "> ";
+    font-family: monospace;
+}
+.part1Footer .TheBoxes .BoxNum span a {
+    color : #fff;
+}
+.part1Footer .TheBoxes .BoxNum hr {
+    width: 100%;
+    height: 0.5px;
+    background-color: #fff;
+    border: none;
+    opacity: 0.2;
+}
+.part1Footer .TheBoxes .Two,
+.part1Footer .TheBoxes .Three {
+    padding: 80px 20px;
+}
+.part1Footer .TheBoxes .Four .BoxToRight {
+    float: right;
+}
+.part1Footer .TheBoxes .Four {
+    background-image : url(images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 10px;
+}
+.part1Footer .TheBoxes .Four span {
+    padding: 25px 0;
+}
+.part1Footer .TheBoxes .Four span::before {
+    content: " ";
+}
+.part1Footer .TheBoxes .Four .FirstIcon {
+    width: 10%;
+    float: left;
+    opacity: 0.5;
+}
+.part1Footer .TheBoxes .Four .FirstSpan {
+    width : 90%;
+    float: right;
+    padding: 0px 0 25px;
+}
+.part1Footer .TheBoxes .Four img,
+.part1Footer .TheBoxes .Four span img,
+.part1Footer .TheBoxes .Four span a img {
+    width : 15px;
+    filter: invert(1);
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* END FOOTER */
+
+/* ============================= */
+
+/* START END */
+
+footer {
+    width : 100%;
+    height : 35vh;
+    background-color: #353330;
+    display: block;
+    margin: auto;
+    padding: 50px;
+}
+footer section {
+    width : 100%;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+footer section img {
+     width: 300px;
+}
+footer section span {
+    display: block;
+    color :#777;
+    text-align: center;
+    padding: 20px;
+    font-size: 12.5px;
+}
+footer section .Links {
+    width: 100%;
+}
+footer section ul {
+    margin: 0 43% 0;
+}
+footer section ul li {
+    float: left;
+}
+footer section ul li img {
+    width : 30px;
+    margin-left: 10px;
+    border-radius: 50%;
+    opacity: 0.4;
+}
+footer section ul li img:hover {
+    opacity: 1;
+}
+
+/* END END */
